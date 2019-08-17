@@ -1,0 +1,97 @@
+$mc: #f6a704;
+$bc: #cfcfcf;
+$bc2: #f5f7f8;
+$green: #6eba1c;
+$pink: #fc5b5b;
+$red: #ea1520;
+$c4: #c4c4c4;
+$white: #ffffff;
+$black: #000000;
+$grey: #aaaaaa;
+$lb: #15c6c8;
+$fb: #3b5998;
+
+$navh: 40px;
+$feedH: 400px;
+$feedH2: 360px;
+
+p {
+  @include font-style(1.4em, $black);
+}
+
+.blur {
+  filter: blur(4px);
+}
+
+form{
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar {
+    width: 5px;
+    background-color: #F5F5F5;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: $mc;
+    background-image: -webkit-linear-gradient(45deg,
+            transparent 25%,
+            transparent 50%,
+            transparent 75%,
+            transparent)
+  }
+}
+
+
+.dn {
+  display: none !important;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+@-webkit-keyframes white-shadow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+  }
+  100% {
+    box-shadow: 0 0 0 30px transparent;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transition: box-shadow 0.4s ease-in-out;
+  }
+}
+
+@-moz-keyframes white-shadow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
+    -moz-transition: box-shadow 0.3s ease-in-out;
+  }
+  100% {
+    box-shadow: 0 0 0 30px transparent;
+    -moz-transform: translate3d(0, 0, 0);
+    -moz-transition: box-shadow 0.4s ease-in-out;
+  }
+}
+
+@keyframes white-shadow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.3);
+    -webkit-transition: box-shadow 0.3s ease-in-out;
+    -moz-transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  100% {
+    box-shadow: 0 0 0 30px transparent;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: box-shadow 0.4s ease-in-out;
+    -moz-transition: box-shadow 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
+  }
+}

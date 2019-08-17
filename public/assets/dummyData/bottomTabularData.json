@@ -1,0 +1,19 @@
+{
+    "success":[
+        {
+            "title":"JSON Dummy Title 1",
+            "count":123,
+            "type":"Satış"
+        },
+        {
+            "title":"JSON Dummy Title 2",
+            "count":456,
+            "type":"Alış"
+        },
+        {
+            "title":"JSON Dummy Title 3",
+            "count":789,
+            "type":"Satış"
+        }
+    ]
+}

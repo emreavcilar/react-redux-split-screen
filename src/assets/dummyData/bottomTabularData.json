@@ -1,0 +1,19 @@
+{
+    success:[
+        {
+            title:'Dummy Title 1',
+            count:123,
+            type:'Satış'
+        },
+        {
+            title:'Dummy Title 2',
+            count:456,
+            type:'Alış'
+        },
+        {
+            title:'Dummy Title 3',
+            count:789,
+            type:'Satış'
+        }
+    ]
+}

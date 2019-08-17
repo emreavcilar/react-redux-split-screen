@@ -1,0 +1,10 @@
+@import 'base/fonts'; 
+
+@import 'abstracts/mixins';
+@import 'abstracts/animations';
+@import 'abstracts/variables';
+ 
+@import 'vendors/normalize';
+@import 'layout/header';  
+@import 'layout/footer';  
+@import 'pages/home';

@@ -1,0 +1,77 @@
+{
+  "success": {
+    "props":[
+      {
+        "title":"ID",
+        "selected":true
+      },
+      {
+        "title":"Kontrat",
+        "selected":true
+      },
+      {
+        "title":"Teklif",
+        "selected":true
+      },
+      {
+        "title":"Data",
+        "selected":true
+      }
+    ],
+    "byYear": [
+      {
+        "year": "2019",
+        "tabularData": [
+          {
+            "id": 1,
+            "kontrat": "2019 json abc",
+            "teklif": "6.444",
+            "data": "alış"
+          },
+          {
+            "id": 2,
+            "kontrat": "2019 json xyz",
+            "teklif": "5.566",
+            "data": "alış"
+          },
+          {
+            "id": 3,
+            "kontrat": "2019 json aaa",
+            "teklif": "2.777",
+            "data": "satış"
+          },
+          {
+            "id": 4,
+            "kontrat": "2019 json bbb",
+            "teklif": "122.122",
+            "data": "satış"
+          }
+        ]
+      },
+      {
+        "year": "2018",
+        "tabularData": [
+          {
+            "id": 5,
+            "kontrat": "2018 json xyzz",
+            "teklif": "12.444",
+            "data": "satış"
+          },
+          {
+            "id": 6,
+            "kontrat": "2018 json aabb",
+            "teklif": "55.566",
+            "data": "alış"
+          },
+          {
+            "id": 7,
+            "kontrat": "2018 json hhh",
+            "teklif": "7.777",
+            "data": "alış"
+          }
+          
+        ]
+      }
+    ]
+  }
+}

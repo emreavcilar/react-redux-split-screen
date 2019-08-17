@@ -1,0 +1,71 @@
+@mixin keyframes($animation-name) {
+  @-webkit-keyframes #{$animation-name} {
+    @content;
+  }
+  @-moz-keyframes #{$animation-name} {
+    @content;
+  }
+  @-ms-keyframes #{$animation-name} {
+    @content;
+  }
+  @-o-keyframes #{$animation-name} {
+    @content;
+  }
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  -webkit-animation: #{$str};
+  -moz-animation: #{$str};
+  -ms-animation: #{$str};
+  -o-animation: #{$str};
+  animation: #{$str};
+}
+
+.fade-enter {
+  z-index: 999;
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 200ms ease-out;
+}
+
+.fade-leave {
+  z-index: 999;
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity .2s ease-out;
+}
+
+.fade-appear {
+  z-index: 999;
+  opacity: 0.01;
+  transition: opacity .2s ease-out;
+}
+
+.fade-appear.fade-appear-active {
+  opacity: 1;
+}
+
+body{
+  height:100%;
+}
+
+.overflowAuto {
+  overflow: auto;
+}
+
+a[disabled]{
+  pointer-events: none;
+  cursor: pointer;
+}
+
+
+
